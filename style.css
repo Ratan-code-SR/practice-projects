@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nested css */
+.primary-btn {
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 11px 22px;
+    font-weight: 700;
+}
+/* header */
+.main-header{
+    background-color: #fff8f3;
+}
+
+
+
+/* nav style */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 0 150px;
+    align-items: center;
+}
+
+.nav-menu h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.nav-menu h1 span {
+    color: #FD6E0A;
+}
+
+.nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+ul.nav-ul li {
+    list-style: none;
+    padding: 0 19px;
+    font-size: 20px;
+}
+ul.nav-ul li a {
+    color: #474747;
+    text-decoration: none;
+}
+
+/* banner section */
+section.banner {
+    display: flex;
+    margin: 30px 30px 30px 150px;
+}
+.left-side h3 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #474747;
+    font-family: Open Sans;
+    letter-spacing: 3px;
+}
+img {
+    width: 547px;
+    height: 676px;
+}
+
+.left-side h1 {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.left-side p {
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 13px 0 13px 0;
+}
+.left-side {
+    margin-top: 100px;
+}
+/* btn */
+button.primary-btn.new {
+    background: none;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 700;
+}

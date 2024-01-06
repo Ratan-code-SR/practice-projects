@@ -108,7 +108,48 @@ button.primary-btn.new {
     color: #FD6E0A;
     font-weight: 700;
 }
+/* about section */
 
+.main-section{
+background-color: #fff8f3;
+max-width: 1140px;
+margin: auto;
+margin-top: 52px;
+
+}
+.about-info{
+text-align: center;
+padding: 70px 50px 0 50px;
+}
+
+.about-info h2{
+font-size: 30px;
+font-weight: 700;
+}
+.about-info p {
+    font-size: 23px;
+    color: #757575;
+}
+
+/* container  */
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-container {
+    text-align: center;
+}
+
+.about-container h6 {
+    font-size: 16px;
+    color: #757575;
+}
+
+.about-container h3 {
+    font-size: 22px;
+    color: #474747;
+    font-weight: 500;
+}
 
 
 

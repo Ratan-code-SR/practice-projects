@@ -272,3 +272,47 @@ button.primary-btn.new {
     text-align: center;
     margin-top: 20px;
 }
+
+/* footer-section */
+.footer-section {
+    background-color: #fff8f3;
+    margin-top: 100px;
+}
+
+.main-footer {
+    padding: 71px 0;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 20px;
+}
+
+.right-footer ul li {
+    display: inline;
+    list-style: none;
+    padding: 0 20px;
+}
+
+
+
+/* form */
+input#input {
+    display: block;
+    margin: 13px 0;
+    width: 250px;
+    padding: 10px 5px;
+}
+
+textarea#name {
+    width: 250px;
+    padding: 4px 6px;
+}
+
+/*  */
+.right-footer h2 {
+    margin-top: -22%;
+}
+
+.right-footer p {
+    font-size: 15px;
+}

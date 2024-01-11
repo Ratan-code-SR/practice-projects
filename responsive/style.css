@@ -1,19 +1,48 @@
-/* 576px */
+
 @media screen and (max-width:576px) {
     .my-skills{
+       flex-direction: column;
+       
+    }
+
+    .details{
         flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .main-footer{
+        flex-direction: column;
+    }
+
+    .right-footer{
+        text-align: center;
+    }
+    .left-footer.responsive{
+       display: block;
     }
 }
 
 
 
 
-
-
-
-
-
-
-
 /* 768px */
+
+/* @media screen and (max-width:768px) {
+    .my-skills{
+        display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+
+
+
+
 /* ≥992px */
+/* @media screen and  (max-width:992px) {
+    .my-skills{
+        display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    }
+} */

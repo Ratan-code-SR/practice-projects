@@ -1,0 +1,19 @@
+/* 576px */
+@media screen and (max-width:576px) {
+    .my-skills{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 768px */
+/* ≥992px */
